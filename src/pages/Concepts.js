@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
-import Main from './Main.js'
 import Values from './Values.js'
 import ConceptOne from './ConceptOne.js'
 import ConceptTwo from './ConceptTwo.js'
@@ -13,18 +12,16 @@ function Concepts() {
     <Router>
       <main id="main" className="concepts-page">
         <div className="wrapper">
-          {/* <Route path="/" exact component={Main} /> */}
-          {/* <Link to="/" className="home-link">&#8592; Link back to website</Link> */}
-          <a href="/" className="home-link">&#8592; Link back to website</a>
           <div className="intro">
             <h2>Intro</h2>
-            <p>Hey Trish, here is some work I've done on your branding/site. I took information from our first two meetings and  put together a few concepts for you to check out. I also put together an example site you can check out as a sample. All the deets below!</p>
-            <h3>Website</h3>
-            <p>Take a look at this website, I built this using assets from concept three but that is not the focus, we will decide on concepts in a sec. The website is here to mainly find out what type of sections you need.</p>
-            <p>This example site has a few images and music immediately for the user to access, then we have an about (based on my research most musical artists don't have an about), upcoming shows, video and a mailing list complete with social links. Let me know if you want to add or remove anything (:</p>
+            <p>Hey Faith, here is some work I've done for Atria's branding. I took information from our meetings and  put together a few concepts for you to check out. All the deets below!</p>
+            <h3>Branding</h3>
+            <p>Take a look at the branding concepts, I built tiles based on the values we established at our initial meeting. If you need specific templates not seen in these concepts please let me know, the branding package includes 9-12 tiles on completion.</p>
+            <p>Branding also includes establishing brand colours, typography, logo, and biz cards so you can represent yourself online in a way that represents Atria at it's best. Hope you Enjoy!</p>
+            <p>All images used in these concepts were sourced from Pexels.com which is a free open source for stock images.</p>
             <h3>What's Next?</h3>
-            <p>Take a look at the 3 concepts and decide which you like best, feel free to mix and match if you like aspects of multiple concepts, this is customized to what you like. </p>
-            <p>From there I will finalize website designs and start building.</p>
+            <p>Take a look at the 3 concepts and decide which you like best, feel free to mix and match if you like aspects of multiple concepts, this is meant to be customized to what you like. </p>
+            <p>Once we decided on branding direction I will polish off the chosen designs and package them up for your use. I've been using photoshop and I will most likely send all tile templates in photoshop so you can edit and use in the future.</p>
           </div>
           <div className="concept-link-wrap">
             <Link to="/concepts/values" className="concept-links">Values</Link>
