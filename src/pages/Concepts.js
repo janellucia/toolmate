@@ -5,6 +5,7 @@ import Values from './Values.js'
 import ConceptOne from './ConceptOne.js'
 import ConceptTwo from './ConceptTwo.js'
 import ConceptThree from './ConceptThree.js'
+import Final from './Final.js'
 
 
 function Concepts() {
@@ -28,12 +29,14 @@ function Concepts() {
             <Link to="/concepts/concept-one" className="concept-links">Concept One</Link>
             <Link to="/concepts/concept-two" className="concept-links">Concept Two</Link>
             <Link to="/concepts/concept-three" className="concept-links">Concept Three</Link>
+            <Link to="/concepts/final" className="concept-links">Final</Link>
           </div>
           <Switch>
             <Route path="/concepts/values" exact component={Values} />
             <Route path="/concepts/concept-one" component={ConceptOne} />
             <Route path="/concepts/concept-two" component={ConceptTwo} />
             <Route path="/concepts/concept-three" component={ConceptThree} />
+            <Route path="/concepts/final" component={Final} />
           </Switch>
         </div>
       </main>
