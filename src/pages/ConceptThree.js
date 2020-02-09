@@ -13,7 +13,7 @@ import cardsThird from '../images/concepts/three/biz-cards.png';
 function ConceptThree() {
   return (
     <div className="concept-three">
-      <h2>Concept Three</h2>
+      <h3>Concept Three</h3>
       <p>For the third and final concept created, I went with a earthy colour palette that has a lot of natural contrasts, this one is definitely the most attractive concept. In this concept I played around with the use of light, shadows, and rainbow overlays to represent the growth and expansion one goes through on the path to healing.</p>
       <p>For the logo I landed on using Orphues font in regular italic (all uppercase) and once I saw that option I couldn't go with another, it feels so satisfying with the customized spacing and the subtle flick of the R. This concept has three fonts to be use dand have outlined where to use which font and when.</p>
       <img src={visionThird} alt="vision board" />

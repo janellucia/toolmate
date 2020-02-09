@@ -13,7 +13,7 @@ import cards from '../images/concepts/one/biz-cards.png';
 function ConceptOne() {
   return (
     <div className="concept-one">
-      <h2>Concept One</h2>
+      <h3>Concept One</h3>
       <p>I made this concept pretty much immediately after our inspo meeting using most of the imagery referenced in your pinterest board and added it to the vision board. Much inspiration coming from the tile concepts in your inspo files and classic fonts pairing for easy reading.</p>
       <p>The colour palette for this concept is bold, diverse and fun, giving the brand a very approachable vibe. The final logo using Tenez in all lower case. Take a look at the insta cards to see how this would translate into the social space.</p>
       <img src={vision} alt="vision board" />

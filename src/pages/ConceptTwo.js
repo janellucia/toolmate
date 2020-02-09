@@ -13,7 +13,7 @@ import cardsTwo from '../images/concepts/two/biz-cards.png';
 function ConceptTwo() {
   return (
     <div className="concept-two">
-      <h2>Concept Two</h2>
+      <h3>Concept Two</h3>
       <p>The second concept, the most sophisticated, has a warm colour palette and a polished font combination. So much inspiration came from online magazines and anything that gave the feeling of expansion and illumination to stay true to your brand guidelines.</p>
       <p>For the logo, I played with a couple of options, the final option is created with the font 'Graced' and in my notes you mentioned you would like to see a handwritten font, I played around with customized letter spacing so that it is uniquely yours. For the official font pairing in this concept I went with Toledo Sans and Glacial Indifference which is a satisfyling pairing with the seris ans sans serif combination. </p>
 

@@ -1,21 +1,19 @@
-// CONCEPT ONE
-// $green: #5caa7f;
-// $lightGreen: #6CB28B;
-// $lighterGreen: #7cbb98;
-// $lightestGreen: #8cc3a5;
 
-// $powderPurple: #b097c5;
-// $punchBowl: #ee5750;
-// $blush: #f4abad;
-// $skyBlue: #73b2d1;
-// $sweetAlmond: #eeceb7;
-// $burntMustard: #d99326;
 
-// CONCEPT THREE
-$blue: #7da1c4;
-$lightBlue: #8aaac9;
-$lighterBlue: #97b3cf;
-$lightestBlue: #a4bdd5;
+$deepBerry: #651c32;
+$deepBerryLight: #743347;
+$deepBerryLighter: #84495b;
+$deepBerryLightest: #936070;
+
+$matisse: #1d4f91;
+$apricot: #f1cfb6;
+$rose: #b57981;
+$pearl: #ebece7;
+$echoBlue: #a1b6cf;
+$gold: #d5c39d;
+
+
+
 
 $shortbread: #F1DAC0;
 $rose: #F6D7DA;
@@ -28,71 +26,13 @@ $chiffon: #E6DCDD;
 
 $black: #222;
 $white: #fff;
-$grey: #f9f9f9;
 
-$error: #d63c35;
-$success: #498865;
 
-@font-face {
-  font-family: 'Favorit-Light';
-  src: url('../fonts/FavoritTrialStd-Light.woff') format('woff'),
-  url('../fonts/FavoritTrialStd-Light.woff2') format('woff2');
-}
 
-@font-face {
-  font-family: 'Favorit-Light-Italic';
-  src: url('../fonts/FavoritTrialStd-LightItalic.woff') format('woff'),
-  url('../fonts/FavoritTrialStd-LightItalic.woff2') format('woff2');
-}
+@import url("https://use.typekit.net/ndx3jwv.css");
 
-@font-face {
-  font-family: 'Favorit-Book';
-  src: url('../fonts/FavoritTrialStd-Book.woff') format('woff'),
-  url('../fonts/FavoritTrialStd-Book.woff2') format('woff2');
-}
 
-@font-face {
-  font-family: 'Favorit-Book-Italic';
-  src: url('../fonts/FavoritTrialStd-BookItalic.woff') format('woff'),
-  url('../fonts/FavoritTrialStd-BookItalic.woff2') format('woff2');
-}
 
-@font-face {
-  font-family: 'Favorit-Medium';
-  src: url('../fonts/FavoritTrialStd-Medium.woff') format('woff'),
-  url('../fonts/FavoritTrialStd-Medium.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Favorit-Medium-Italic';
-  src: url('../fonts/FavoritTrialStd-MediumItalic.woff') format('woff'),
-  url('../fonts/FavoritTrialStd-MediumItalic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Favorit-Bold';
-  src: url('../fonts/FavoritTrialStd-Bold.woff') format('woff'),
-  url('../fonts/FavoritTrialStd-Bold.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Favorit-Bold-Italic';
-  src: url('../fonts/FavoritTrialStd-BoldItalic.woff') format('woff'),
-  url('../fonts/FavoritTrialStd-BoldItalic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Glyphworld-Glacier';
-  src: url('../fonts/GlyphWorld-Glacier.otf') format('OpenType')
-}
-
-$mainFontLight: 'Favorit-Light', sans-serif;
-$mainFontLightItalic: 'Favorit-Light-Italic', sans-serif;
-$mainFont: 'Favorit-Book', sans-serif;
-$mainFontItalic: 'Favorit-Book-Italic', sans-serif;
-$mainFontMedium: 'Favorit-Book', sans-serif;
-$mainFontMediumItalic: 'Favorit-Book-Italic', sans-serif;
-$mainFontBold: 'Favorit-Bold', sans-serif;
-$mainFontBoldItalic: 'Favorit-Bold-Italic', sans-serif;
-
-$test: 'Glyphworld-Glacier';
+$mainFont: orpheuspro, serif;
+$secondaryFont: commuters-sans, sans-serif;
+$bodyFont: capitolium-2, serif;

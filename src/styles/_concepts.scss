@@ -1,49 +1,32 @@
-.concepts-page {
-  // margin-top: 150px;
-  // z-index: 100;
 
-  h2 {
-    font-family: $mainFontBold;
-    text-align: left;
-    margin-bottom: -10px;
+  .intro {
+    background: $apricot;
+    padding: 70px 0 50px 0;
   }
 
   h3 {
-    margin-bottom: -10px;
-    font-family: $mainFontBold;
-    text-transform: uppercase;
+    margin: 40px 0 0 0;
+    letter-spacing: .75px
   }
-
-  .home-link {
-    font-family: $mainFontBold;
-    text-transform: uppercase;
-    margin-right: 15px;
-    background: #651c32;
-    color: $white;
-    padding: 5px 15px;
-  }
-
-  .concept-link-wrap {
-    margin: 40px 0;
-
-    .concept-links {
-      font-family: $mainFontBold;
-      text-transform: uppercase;
-      margin-right: 15px;
-      background: #651c32;
-      color: $white;
-      padding: 5px 15px;
-    }
-
-  }
-
-
+  
   p {
     max-width: 550px;
 
     a {
-      font-family: $mainFontBold;
       display: block;
+    }
+  }
+
+  .credits {
+    display: flex;
+    justify-content: center;
+    p {
+      font-family: $secondaryFont;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin: 30px 10px 0 10px;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
     }
   }
   img {
@@ -61,8 +44,3 @@
       width: 49%;
     }
   }
-}
-
-.concepts-page {
-
-}
