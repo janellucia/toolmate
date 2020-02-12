@@ -2,10 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 import Values from './Values.js'
-import ConceptOne from './ConceptOne.js'
-import ConceptTwo from './ConceptTwo.js'
-import ConceptThree from './ConceptThree.js'
 import Final from './Final.js'
+import FinalTwo from './FinalTwo.js'
 
 import logo from '../images/logo.png';
 
@@ -19,10 +17,8 @@ function Concepts() {
             <img src={logo} alt="" className="logo" />
             <div className="concept-link-wrap">
               <Link to="/concepts/values" className="concept-links">Values</Link>
-              <Link to="/concepts/concept-one" className="concept-links">Concept One</Link>
-              <Link to="/concepts/concept-two" className="concept-links">Concept Two</Link>
-              <Link to="/concepts/concept-three" className="concept-links">Concept Three</Link>
               <Link to="/concepts/final" className="concept-links">Final</Link>
+              <Link to="/concepts/final-two" className="concept-links">Final Two</Link>
             </div>
           </div>
         </header>
@@ -37,10 +33,8 @@ function Concepts() {
           </div>
           <Switch>
             <Route path="/concepts/values" exact component={Values} />
-            <Route path="/concepts/concept-one" component={ConceptOne} />
-            <Route path="/concepts/concept-two" component={ConceptTwo} />
-            <Route path="/concepts/concept-three" component={ConceptThree} />
             <Route path="/concepts/final" component={Final} />
+            <Route path="/concepts/final-two" component={FinalTwo} />
           </Switch>
         </div>
       </main>

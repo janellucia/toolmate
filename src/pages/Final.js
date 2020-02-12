@@ -12,7 +12,7 @@ import cards from '../images/concepts/final/biz-cards.png';
 import cardsTwo from '../images/concepts/final/biz-cards-two.png';
 
 
-function ConceptOne() {
+function Final() {
   return (
     <div className="concept-one">
       <h3>Final Designs</h3>
@@ -34,4 +34,4 @@ function ConceptOne() {
   );
 }
 
-export default ConceptOne;
+export default Final;
