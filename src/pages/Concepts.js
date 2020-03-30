@@ -2,8 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 import Values from './Values.js'
-import Final from './Final.js'
-import FinalTwo from './FinalTwo.js'
+import ConceptOne from './ConceptOne.js'
+import ConceptTwo from './ConceptTwo.js'
+import ConceptThree from './ConceptThree.js'
 
 import logo from '../images/logo.png';
 
@@ -17,24 +18,26 @@ function Concepts() {
             <img src={logo} alt="" className="logo" />
             <div className="concept-link-wrap">
               <Link to="/concepts/values" className="concept-links">Values</Link>
-              <Link to="/concepts/final" className="concept-links">Final</Link>
-              <Link to="/concepts/final-two" className="concept-links">Final Two</Link>
+              <Link to="/concepts/concept-one" className="concept-links">Concept One</Link>
+              <Link to="/concepts/concept-two" className="concept-links">Concept Two</Link>
+              <Link to="/concepts/concept-three" className="concept-links">Concept Three</Link>
             </div>
           </div>
         </header>
         <div className="wrapper">
           <div className="intro">
-            <h1>Branding includes Brand Colours, Typography, Logo, Social Media Tiles & Biz Cards</h1>
-            <h2>Logo will be sent in jpg, png and svg &mdash; type can be sourced on adobe fonts, Tiles/Colours/Biz Cards will be sent in .psd format so you can edit for socials.</h2>
+            <h1>The Hunting & Feeding Behaviors <br></br>of European Gray Wolves</h1>
+            <h2>The gray wolf is one of the world’s best known and well researched animals<br></br>with probably more books written about it than any other wildlife species</h2>
             <div className="credits">
-              <p>Atria Branding</p>
-              <p>February 2020</p>
+              <p>Spirit Luxe Branding</p>
+              <p>April 2020</p>
             </div>
           </div>
           <Switch>
             <Route path="/concepts/values" exact component={Values} />
-            <Route path="/concepts/final" component={Final} />
-            <Route path="/concepts/final-two" component={FinalTwo} />
+            <Route path="/concepts/concept-one" component={ConceptOne} />
+            <Route path="/concepts/concept-two" component={ConceptTwo} />
+            <Route path="/concepts/concept-three" component={ConceptThree} />
           </Switch>
         </div>
       </main>

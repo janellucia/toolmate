@@ -4,10 +4,13 @@ import vision from '../images/concepts/one/moodboard.png';
 import colour from '../images/concepts/one/colours.png';
 import typeOne from '../images/concepts/one/typography.png';
 import typeTwo from '../images/concepts/one/typography-two.png';
+import site from '../images/concepts/one/site.png';
 import logo from '../images/concepts/one/logo-squares.png';
 import insta from '../images/concepts/one/insta-cards.png';
-import imagery from '../images/concepts/one/imagery.png';
+import imagery from '../images/concepts/one/insta-cards-two.png';
+import stories from '../images/concepts/one/stories.png';
 import cards from '../images/concepts/one/biz-cards.png';
+import letter from '../images/concepts/one/letterhead.png';
 
 
 function ConceptOne() {
@@ -20,10 +23,13 @@ function ConceptOne() {
       <img src={colour} alt="colour" />
       <img src={typeOne} alt="brand typography" />
       <img src={typeTwo} alt="typography usage" />
+      <img src={site} alt="site/typography preview" />
       <img src={logo} alt="logo exploration" />
       <img src={insta} alt="insta cards with logo and events" />
       <img src={imagery} alt="insta imagery usage" />
+      <img src={stories} alt="insta imagery usage" />
       <img src={cards} alt="business cards example" />
+      <img src={letter} alt="site/typography preview" className="letterhead" />
     </div>
   );
 }
