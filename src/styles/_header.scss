@@ -3,7 +3,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  background: $pearl;
+  background: $neutral;
   z-index: 9999;
 
   .wrapper {
@@ -29,15 +29,16 @@ header {
     margin: 40px 0;
 
     .concept-links {
-      font-family: $secondaryFont;
-      text-transform: uppercase;
+      font-family: $mainFont;
+      text-transform: lowercase;
+      text-decoration: none;
       margin-right: 15px;
       letter-spacing: 2px;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 600;
 
-      &:hover, &:active {
-        color: $matisse;
+      &:hover, &:active, &:focus {
+        color: $second;
       }
     }
 

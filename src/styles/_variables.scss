@@ -15,6 +15,14 @@ $gold: #d5c39d;
 $black: #222;
 $white: #fff;
 
+$neutral: #f2e5d5;
+
+$main: #dd6743;
+$second: #8eacc8;
+$third: #959579;
+$fourth: #c3a7d0;
+$fifth: #efbb78;
+
 
 
 $shortbread: #F1DAC0;
@@ -32,8 +40,22 @@ $chiffon: #E6DCDD;
 
 @import url("https://use.typekit.net/ndx3jwv.css");
 
+@font-face {
+  font-family: 'Toledo';
+  src: url('../fonts/toledo-regular.eot');
+  src: url('../fonts/toledo-regular.woff2') format('woff2'), url('../fonts/toledo-regular.woff') format('woff'), url('../fonts/toledo-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/toledo-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Glacial-Indifference';
+    src:  url('../fonts/Glacial-Indifference-Regular.ttf.woff') format('woff'),
+    url('../fonts/Glacial-Indifference-Regular.ttf.svg#Glacial-Indifference-Regular') format('svg'),
+    url('../fonts/Glacial-Indifference-Regular.ttf.eot'),
+    url('../fonts/Glacial-Indifference-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+}
 
 
-$mainFont: orpheuspro, serif;
-$secondaryFont: futura-pt, sans-serif;
-$bodyFont: capitolium-2, serif;
+
+$mainFont: 'Toledo', serif;
+$secondaryFont: 'Glacial-Indifference', sans-serif;
+$bodyFont: 'Glacial-Indifference', sans-serif;
