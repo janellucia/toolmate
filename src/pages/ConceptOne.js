@@ -17,8 +17,9 @@ function ConceptOne() {
   return (
     <div className="concept-one">
       <h3>Concept One</h3>
-      <p>I made this concept pretty much immediately after our inspo meeting using most of the imagery referenced in your pinterest board and added it to the vision board. Much inspiration coming from the tile concepts in your inspo files and classic fonts pairing for easy reading.</p>
-      <p>The colour palette for this concept is bold, diverse and fun, giving the brand a very approachable vibe. The final logo using Tenez in all lower case. Take a look at the insta cards to see how this would translate into the social space.</p>
+      <p>I made this concept pretty much immediately after our kick off meeting using most of the imagery referenced in your mood board and added it to the vision board for this concept. I chose to go with a classic font pairing for easy reading.</p>
+      <p>The colour palette for this concept is bold, diverse and fun, giving the brand a very approachable vibe. The final logo using Marcellus in sentence case and cusotm spacing. Take a look at the insta cards to see how this would translate into the social space.</p>
+      <p>All fonts in this concept are available with Adobe Fonts.</p>
       <img src={vision} alt="vision board" />
       <img src={colour} alt="colour" />
       <img src={typeOne} alt="brand typography" />
