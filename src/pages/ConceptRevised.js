@@ -6,6 +6,7 @@ import typeOneFinal from '../images/concepts/final/typography.png';
 import typeTwoFinal from '../images/concepts/final/typography-two.png';
 import siteFinal from '../images/concepts/final/site.png';
 import logoConceptsFinal from '../images/concepts/final/logo.png';
+import iconConceptsFinal from '../images/concepts/final/icons.png';
 import logoFinal from '../images/concepts/final/logo-squares.png';
 import instaFinal from '../images/concepts/final/insta-cards.png';
 import imageryFinal from '../images/concepts/final/insta-cards-two.png';
@@ -26,6 +27,7 @@ function ConceptTwo() {
       <img src={typeTwoFinal} alt="typography usage" />
       <img src={siteFinal} alt="site/typography preview" />
       <img src={logoConceptsFinal} alt="logo exploration" />
+      <img src={iconConceptsFinal} alt="icon exploration" />
       <img src={logoFinal} alt="logo exploration" />
       <img src={instaFinal} alt="insta cards with logo and events" />
       <img src={imageryFinal} alt="insta imagery usage" />
