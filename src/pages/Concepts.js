@@ -2,9 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 import Values from './Values.js'
-
-import ConceptTwo from './ConceptTwo.js'
-import ConceptRevised from './ConceptRevised.js'
+import Moodboard from './Moodboard.js'
+import Logos from './Logo.js'
+import Insta from './Insta.js'
+import Misc from './Misc.js'
+// import Download from './Download.js'
 
 
 import logo from '../images/logo.png';
@@ -19,24 +21,22 @@ function Concepts() {
             <img src={logo} alt="" className="logo" />
             <div className="concept-link-wrap">
               <Link to="/concepts/values" className="concept-links">Values</Link>
-              <Link to="/concepts/concept-two" className="concept-links">Chosen Concept</Link>
-              <Link to="/concepts/concept-revised" className="concept-links">Concept Revised</Link>
+              <Link to="/concepts/moodboard-colors-typography" className="concept-links">Moodboard</Link>
+              <Link to="/concepts/logo" className="concept-links">Logo</Link>
+              <Link to="/concepts/insta" className="concept-links">Insta</Link>
+              <Link to="/concepts/misc" className="concept-links">Misc</Link>
+              {/* <Link to="/concepts/download" className="concept-links">Download</Link> */}
             </div>
           </div>
         </header>
         <div className="wrapper">
-          <div className="intro">
-            <h1>The Hunting & Feeding Behaviors <br></br>of European Gray Wolves</h1>
-            <h2>The gray wolf is one of the world’s best known and well researched animals<br></br>with probably more books written about it than any other wildlife species</h2>
-            <div className="credits">
-              <p>Spirit Luxe Branding</p>
-              <p>April 2020</p>
-            </div>
-          </div>
           <Switch>
             <Route path="/concepts/values" startsWith={true} component={Values} />
-            <Route path="/concepts/concept-two" component={ConceptTwo} />
-            <Route path="/concepts/concept-revised" component={ConceptRevised} />
+            <Route path="/concepts/moodboard-colors-typography" component={Moodboard} />
+            <Route path="/concepts/logo" component={Logos} />
+            <Route path="/concepts/insta" component={Insta} />
+            <Route path="/concepts/misc" component={Misc} />
+            {/* <Route path="/concepts/download" component={Download} /> */}
           </Switch>
         </div>
       </main>

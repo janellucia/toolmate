@@ -1,41 +1,14 @@
 
-
-$deepBerry: #651c32;
-$deepBerryLight: #743347;
-$deepBerryLighter: #84495b;
-$deepBerryLightest: #936070;
-
-$matisse: #1d4f91;
-$apricot: #f1cfb6;
-$rose: #b57981;
-$pearl: #ebece7;
-$echoBlue: #a1b6cf;
-$gold: #d5c39d;
-
-$black: #222;
+$black: #000;
 $white: #fff;
 
-$neutral: #f2e5d5;
+$neutral: #f5f5f8;
 
-$main: #dd6743;
-$second: #8eacc8;
-$third: #959579;
-$fourth: #c3a7d0;
-$fifth: #efbb78;
-
-
-
-$shortbread: #F1DAC0;
-$rose: #F6D7DA;
-$crimson: #C80816;
-$forestGreen: #28503F;
-$mulberry: #751B30;
-$sapphire: #3983B3;
-$honey: #DCB034;
-$chiffon: #E6DCDD;
-
-
-
+$main: #ef559c;
+$second: #2c9dd6;
+$third: #14d57c;
+$fourth: #e680ad;
+$fifth: #f36c2c;
 
 
 @import url("https://use.typekit.net/ndx3jwv.css");
@@ -46,16 +19,8 @@ $chiffon: #E6DCDD;
   src: url('../fonts/toledo-regular.woff2') format('woff2'), url('../fonts/toledo-regular.woff') format('woff'), url('../fonts/toledo-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/toledo-regular.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Glacial-Indifference';
-    src:  url('../fonts/Glacial-Indifference-Regular.ttf.woff') format('woff'),
-    url('../fonts/Glacial-Indifference-Regular.ttf.svg#Glacial-Indifference-Regular') format('svg'),
-    url('../fonts/Glacial-Indifference-Regular.ttf.eot'),
-    url('../fonts/Glacial-Indifference-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
-}
-
 
 
 $mainFont: 'Toledo', serif;
-$secondaryFont: 'Glacial-Indifference', sans-serif;
-$bodyFont: 'Glacial-Indifference', sans-serif;
+$secondaryFont: commuters-sans, sans-serif;
+$bodyFont: sorts-mill-goudy, serif;
