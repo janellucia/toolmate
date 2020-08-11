@@ -1,19 +1,18 @@
 import React from 'react';
 
-import logoConceptsFinal from '../images/concepts/final/logo.png';
-import iconConceptsFinal from '../images/concepts/final/icons.png';
-import logoFinal from '../images/concepts/final/logo-squares.png';
+import icons from '../images/concepts/final/icons.png';
+import logo from '../images/concepts/final/logo.png';
+import logoAccent from '../images/concepts/final/logo-accent.png';
 
 
-
-function Logo() {
+function Logos() {
   return (
-    <div className="concept-two">
-      <img src={logoConceptsFinal} alt="logo exploration" />
-      <img src={iconConceptsFinal} alt="icon exploration" />
-      <img src={logoFinal} alt="logo exploration" />
-    </div >
+    <div className="concept-one">
+      <img src={icons} alt="qube properties icon" />
+      <img src={logo} alt="logo exploration" />
+      <img src={logoAccent} alt="qube properties icon" />
+    </div>
   );
 }
 
-export default Logo;
+export default Logos;

@@ -1,16 +1,19 @@
 import React from 'react';
 
-import cardsFinal from '../images/concepts/final/biz-cards.png';
-import letterFinal from '../images/concepts/final/letterhead.png';
+
+import cards from '../images/concepts/final/biz-cards.png';
+import site from '../images/concepts/final/site.png';
+import letterhead from '../images/concepts/final/letterhead.png';
 
 
-function Misc() {
+function Moodboard() {
   return (
-    <div className="concept-two">
-      <img src={cardsFinal} alt="business cards example" className="biz-cards" />
-      <img src={letterFinal} alt="site/typography preview" className="letterhead" />
-    </div >
+    <div className="concept-one">
+      <img src={cards} alt="business cards example" />
+      <img src={letterhead} alt="letterhead preview" class="letter-head" />
+      <img src={site} alt="site preview" />
+    </div>
   );
 }
 
-export default Misc;
+export default Moodboard;

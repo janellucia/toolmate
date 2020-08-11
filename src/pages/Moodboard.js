@@ -1,19 +1,19 @@
 import React from 'react';
 
-import visionFinal from '../images/concepts/final/moodboard.png';
-import colourFinal from '../images/concepts/final/colours.png';
-import typeOneFinal from '../images/concepts/final/typography.png';
-import typeTwoFinal from '../images/concepts/final/typography-two.png';
+
+import colour from '../images/concepts/final/colours.png';
+import typeOne from '../images/concepts/final/type.png';
+import typeTwo from '../images/concepts/final/type-two.png';
 
 
 function Moodboard() {
   return (
-    <div className="concept-two">
-      <img src={visionFinal} alt="vision board" />
-      <img src={colourFinal} alt="colour" />
-      <img src={typeOneFinal} alt="brand typography" />
-      <img src={typeTwoFinal} alt="typography usage" />
-    </div >
+    <div className="concept-one">
+      <h3>Moodboard</h3>
+      <img src={colour} alt="colour" />
+      <img src={typeOne} alt="brand typography" />
+      <img src={typeTwo} alt="typography usage" />
+    </div>
   );
 }
 
