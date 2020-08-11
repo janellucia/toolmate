@@ -4,7 +4,7 @@ import values from '../files/SL-values.zip';
 import moodboard from '../files/SL-moodboard.zip';
 import logos from '../files/SL-logos.zip';
 
-import insta from '../files/SL-insta-socials.ai.zip';
+import adobe from '../files/SL-adobe-files.zip';
 
 
 import misc from '../files/SL-misc.zip';
@@ -21,7 +21,7 @@ function Download() {
       <p><a href={values}>Spirit Luxe Values Zip File</a></p>
       <p><a href={moodboard}>Spirit Luxe Moodboard Zip File</a></p>
       <p><a href={logos}>Spirit Luxe Logos Zip File</a></p>
-      <p><a href={insta}>Spirit Luxe Adobe Social Zip File</a></p>
+      <p><a href={adobe}>Spirit Luxe Adobe Zip File</a></p>
       <p><a href={misc}>Spirit Luxe Misc Zip File</a></p>
 
 
