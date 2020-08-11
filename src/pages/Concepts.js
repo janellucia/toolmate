@@ -6,7 +6,7 @@ import Moodboard from './Moodboard.js'
 import Logos from './Logo.js'
 import Insta from './Insta.js'
 import Misc from './Misc.js'
-// import Download from './Download.js'
+import Download from './Download.js'
 
 
 import logo from '../images/logo.png';
@@ -25,7 +25,7 @@ function Concepts() {
               <Link to="/concepts/logo" className="concept-links">Logo</Link>
               <Link to="/concepts/insta" className="concept-links">Insta</Link>
               <Link to="/concepts/misc" className="concept-links">Misc</Link>
-              {/* <Link to="/concepts/download" className="concept-links">Download</Link> */}
+              <Link to="/concepts/download" className="concept-links">Download</Link>
             </div>
           </div>
         </header>
@@ -36,7 +36,7 @@ function Concepts() {
             <Route path="/concepts/logo" component={Logos} />
             <Route path="/concepts/insta" component={Insta} />
             <Route path="/concepts/misc" component={Misc} />
-            {/* <Route path="/concepts/download" component={Download} /> */}
+            <Route path="/concepts/download" component={Download} />
           </Switch>
         </div>
       </main>
