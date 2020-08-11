@@ -12,12 +12,12 @@ function Download() {
       <p>Please note that you will have to install all fonts before opening <br></br>any attached files in Abode Illustrator</p>
       <p>Toledo Serial is in the Moodboard zip folder attached</p>
       <p>Commuters Sans & OFL Sorts Mill Goudy are both Adobe fonts, <br></br>so please go to adobe to turn on these fonts, links below</p>
-      <a href="https://fonts.adobe.com/fonts/commuters-sans" target="new">Commuters Sans</a>
-      <a href="https://fonts.adobe.com/fonts/ofl-sorts-mill-goudy" target="new">OFL Sorts Mill Goudy</a>
-      <a href={values}>Spirit Luxe Values Zip File</a>
-      <a href={moodboard}>Spirit Luxe Moodboard Zip File</a>
-      <a href={logos}>Spirit Luxe Logos Zip File</a>
-      <a href={misc}>Spirit Luxe Misc Zip File</a>
+      <p><a href="https://fonts.adobe.com/fonts/commuters-sans" target="new">Commuters Sans</a></p>
+      <p><a href="https://fonts.adobe.com/fonts/ofl-sorts-mill-goudy" target="new">OFL Sorts Mill Goudy</a></p>
+      <p><a href={values}>Spirit Luxe Values Zip File</a></p>
+      <p><a href={moodboard}>Spirit Luxe Moodboard Zip File</a></p>
+      <p><a href={logos}>Spirit Luxe Logos Zip File</a></p>
+      <p><a href={misc}>Spirit Luxe Misc Zip File</a></p>
 
 
     </div >
