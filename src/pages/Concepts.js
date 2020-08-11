@@ -8,7 +8,7 @@ import Misc from './Misc.js'
 // import Download from './Download.js'
 
 
-import logo from '../images/logo-stacked-accent.png';
+import logo from '../images/logo-long.png';
 
 
 function Concepts() {

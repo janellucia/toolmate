@@ -19,9 +19,13 @@ header {
       }
 
       .logo {
-        width:  25%;
-        max-width: 200px;
-        margin: 20px auto 0 auto;
+        width:  40%;
+        max-width: 250px;
+        margin: 10px 0;
+
+      @media (max-width: 768px) {
+         margin: 20px auto 0 auto;
+      }
         img {
           width: 100%;
         }
@@ -30,10 +34,16 @@ header {
 
   .concept-link-wrap {
     margin: 20px 0;
-    width: 100%;
+    width: 65%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
     flex-wrap: wrap;
+
+      @media (max-width: 768px) {
+         width: 100%;
+         justify-content: center;
+      }
 
     .concept-links {
       font-family: $secondaryFont;

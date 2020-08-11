@@ -38,9 +38,13 @@ h2 {
   text-align: center;
 }
 
-main {
-  margin-top: 160px;
-}
+  main {
+    margin-top: 70px;
+
+      @media (max-width: 768px) {
+      margin-top: 140px;
+    }
+  }
 
 
 .wrapper {

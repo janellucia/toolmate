@@ -10,7 +10,7 @@ function Moodboard() {
   return (
     <div className="concept-one">
       <img src={cards} alt="business cards example" />
-      <img src={letterhead} alt="letterhead preview" class="letter-head" />
+      <img src={letterhead} alt="letterhead preview" class="letterhead" />
       <img src={site} alt="site preview" />
     </div>
   );

@@ -11,16 +11,8 @@ $fourth: #e680ad;
 $fifth: #f36c2c;
 
 
-@import url("https://use.typekit.net/ndx3jwv.css");
+@import url("https://use.typekit.net/dmk1wil.css");
 
-@font-face {
-  font-family: 'Toledo';
-  src: url('../fonts/toledo-regular.eot');
-  src: url('../fonts/toledo-regular.woff2') format('woff2'), url('../fonts/toledo-regular.woff') format('woff'), url('../fonts/toledo-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/toledo-regular.ttf') format('truetype');
-}
-
-
-
-$mainFont: 'Toledo', serif;
-$secondaryFont: commuters-sans, sans-serif;
-$bodyFont: sorts-mill-goudy, serif;
+$mainFont: soleil, sans-serif;
+$secondaryFont: soleil, sans-serif;
+$bodyFont: coranto-2, serif;
