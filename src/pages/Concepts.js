@@ -20,7 +20,7 @@ function Concepts() {
             <img src={logo} alt="" className="logo" />
             <div className="concept-link-wrap">
               <Link to="/values" className="concept-links">Values</Link>
-              <Link to="/moodboard-colors-typography" className="concept-links">Colour & Typography</Link>
+              <Link to="/colours-typography" className="concept-links">Colour & Typography</Link>
               <Link to="/logo" className="concept-links">Logo</Link>
               <Link to="/misc" className="concept-links">Misc</Link>
               {/* <Link to="/download" className="concept-links">Download</Link> */}
@@ -30,7 +30,7 @@ function Concepts() {
         <div className="wrapper">
           <Switch>
             <Route path="/values" startsWith={true} component={Values} />
-            <Route path="/moodboard-colors-typography" component={Moodboard} />
+            <Route path="/colours-typography" component={Moodboard} />
             <Route path="/logo" component={Logos} />
             <Route path="/misc" component={Misc} />
             {/* <Route path="/download" component={Download} /> */}
