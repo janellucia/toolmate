@@ -20,7 +20,7 @@ function Concepts() {
             <img src={logo} alt="" className="logo" />
             <div className="concept-link-wrap">
               <Link to="/values" className="concept-links">Values</Link>
-              <Link to="/moodboard-colors-typography" className="concept-links">Moodboard</Link>
+              <Link to="/moodboard-colors-typography" className="concept-links">Colour & Typography</Link>
               <Link to="/logo" className="concept-links">Logo</Link>
               <Link to="/misc" className="concept-links">Misc</Link>
               {/* <Link to="/download" className="concept-links">Download</Link> */}
