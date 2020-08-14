@@ -2,7 +2,7 @@ import React from 'react';
 
 import logo from '../images/concepts/final/logo.png';
 import logoAccent from '../images/concepts/final/logo-accent.png';
-import icons from '../images/concepts/final/icons.png';
+import icons from '../images/concepts/final/icons_2.png';
 
 
 function Logos() {
