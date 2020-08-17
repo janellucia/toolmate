@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
 
 import Values from './Values.js'
 import Moodboard from './Moodboard.js'
@@ -35,6 +35,7 @@ function Concepts() {
             <Route path="/print" component={Misc} />
             {/* <Route path="/download" component={Download} /> */}
           </Switch>
+          <Redirect exact from="/" to="/values" />
         </div>
       </main>
     </Router>
