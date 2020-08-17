@@ -2,7 +2,6 @@ import React from 'react';
 
 import logo from '../images/concepts/final/logo.png';
 import logoAccent from '../images/concepts/final/logo-accent.png';
-import icons from '../images/concepts/final/icons_2.png';
 
 
 function Logos() {
@@ -10,7 +9,6 @@ function Logos() {
     <div className="concept-one">
       <img src={logo} alt="logo exploration" />
       <img src={logoAccent} alt="logo accent" />
-      <img src={icons} alt="icon exploration" />
     </div>
   );
 }
