@@ -22,7 +22,7 @@ function Concepts() {
               <Link to="/values" className="concept-links">Values</Link>
               <Link to="/colours-typography" className="concept-links">Colour & Typography</Link>
               <Link to="/logo" className="concept-links">Logo</Link>
-              <Link to="/misc" className="concept-links">Misc</Link>
+              <Link to="/print" className="concept-links">Print</Link>
               {/* <Link to="/download" className="concept-links">Download</Link> */}
             </div>
           </div>
@@ -32,7 +32,7 @@ function Concepts() {
             <Route path="/values" startsWith={true} component={Values} />
             <Route path="/colours-typography" component={Moodboard} />
             <Route path="/logo" component={Logos} />
-            <Route path="/misc" component={Misc} />
+            <Route path="/print" component={Misc} />
             {/* <Route path="/download" component={Download} /> */}
           </Switch>
         </div>
