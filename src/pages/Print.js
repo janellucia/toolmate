@@ -7,7 +7,7 @@ import signOne from '../images/concepts/print/landscape.png';
 import signTwo from '../images/concepts/print/portrait.png';
 
 
-function Moodboard() {
+function Print() {
   return (
     <div className="concept-one">
       <img src={cards} alt="business cards example" />
@@ -18,4 +18,4 @@ function Moodboard() {
   );
 }
 
-export default Moodboard;
+export default Print;
