@@ -6,6 +6,7 @@ import Moodboard from './Moodboard.js'
 import Logos from './Logo.js'
 import Print from './Print.js'
 import Flyer from './Flyer.js'
+import FlyerTwo from './FlyerTwo.js'
 // import Download from './Download.js'
 
 
@@ -25,6 +26,7 @@ function Concepts() {
               <Link to="/logo" className="concept-links">Logo</Link>
               <Link to="/print" className="concept-links">Print</Link>
               <Link to="/flyer" className="concept-links">Flyer</Link>
+              <Link to="/flyer-landscape" className="concept-links">Flyer Two</Link>
               {/* <Link to="/download" className="concept-links">Download</Link> */}
             </div>
           </div>
@@ -36,6 +38,7 @@ function Concepts() {
             <Route path="/logo" component={Logos} />
             <Route path="/print" component={Print} />
             <Route path="/flyer" component={Flyer} />
+            <Route path="/flyer-landscape" component={FlyerTwo} />
             {/* <Route path="/download" component={Download} /> */}
           </Switch>
           <Redirect exact from="/" to="/values" />
