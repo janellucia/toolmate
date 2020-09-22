@@ -1,8 +1,8 @@
 import React from 'react';
 
-import personaOne from '../images/concepts/values/persona-michael.png';
-import personaTwo from '../images/concepts/values/persona-sarah.png';
-import personaThree from '../images/concepts/values/persona-david.png';
+import personaOne from '../images/concepts/values/persona-one.png';
+import personaTwo from '../images/concepts/values/persona-two.png';
+import personaThree from '../images/concepts/values/persona-three.png';
 import principles from '../images/concepts/values/principles.png';
 import positioning from '../images/concepts/values/statement.png';
 
