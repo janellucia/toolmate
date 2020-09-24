@@ -25,7 +25,7 @@ function Concepts() {
               <Link to="/concept-one" className="concept-links">Concept 1</Link>
               <Link to="/concept-two" className="concept-links">Concept 2</Link>
               <Link to="/concept-three" className="concept-links">Concept 3</Link>
-              <Link to="/concept-four" className="concept-links">Concept 4</Link>
+              <Link to="/version-2" className="concept-links">Version 2</Link>
             </div>
           </div>
         </header>
@@ -35,7 +35,7 @@ function Concepts() {
             <Route path="/concept-one" component={ConceptOne} />
             <Route path="/concept-two" component={ConceptTwo} />
             <Route path="/concept-three" component={ConceptThree} />
-            <Route path="/concept-four" component={ConceptFour} />
+            <Route path="/version-2" component={ConceptFour} />
           </Switch>
           <Redirect exact from="/" to="/values" />
         </div>
