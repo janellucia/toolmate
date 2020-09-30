@@ -15,7 +15,7 @@ import site from '../images/concepts/two/site.png';
 function ConceptTwo() {
   return (
     <div className="concept-one">
-      <img src={moodboard} alt="moodboard" />
+      {/* <img src={moodboard} alt="moodboard" /> */}
       <img src={colour} alt="colour" />
       <img src={logo} alt="logo" />
       <img src={icons} alt="icons" />
