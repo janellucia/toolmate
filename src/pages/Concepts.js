@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-ro
 import Values from './Values.js'
 import ConceptOne from './ConceptOne.js'
 import ConceptTwo from './ConceptTwo.js'
-import ConceptThree from './ConceptThree.js'
 import VersionTwo from './VersionTwo.js'
 
 
