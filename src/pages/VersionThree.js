@@ -11,7 +11,7 @@ import typeTwo from '../images/concepts/one/type-two.png';
 import site from '../images/concepts/one/site.png';
 
 
-function VersionTwo() {
+function VersionThree() {
   return (
     <div className="concept-one">
       <img src={colour} alt="colour" />
@@ -26,4 +26,4 @@ function VersionTwo() {
   );
 }
 
-export default VersionTwo;
+export default VersionThree;

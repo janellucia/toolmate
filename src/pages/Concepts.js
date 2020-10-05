@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
 
 import Values from './Values.js'
-import ConceptOne from './ConceptOne.js'
-import ConceptTwo from './ConceptTwo.js'
 import VersionTwo from './VersionTwo.js'
+import VersionThree from './VersionThree.js'
+import Final from './Final.js'
 
 
 
@@ -22,8 +22,8 @@ function Concepts() {
             <div className="concept-link-wrap">
               <Link to="/values" className="concept-links">Values</Link>
               <Link to="/version-2" className="concept-links">Version 2</Link>
-              <Link to="/orpheus" className="concept-links">V2 Orpheus</Link>
-              <Link to="/kepler" className="concept-links">V2 Kepler</Link>
+              <Link to="/version-3" className="concept-links">Version 3</Link>
+              <Link to="/final" className="concept-links">Final</Link>
             </div>
           </div>
         </header>
@@ -31,8 +31,8 @@ function Concepts() {
           <Switch>
             <Route path="/values" startsWith={true} component={Values} />
             <Route path="/version-2" component={VersionTwo} />
-            <Route path="/orpheus" component={ConceptOne} />
-            <Route path="/kepler" component={ConceptTwo} />
+            <Route path="/version-3" component={VersionThree} />
+            <Route path="/final" component={Final} />
           </Switch>
           <Redirect exact from="/" to="/values" />
         </div>
