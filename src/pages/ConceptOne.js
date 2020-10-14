@@ -11,7 +11,7 @@ import typeTwo from '../images/concepts/one/type-two.png';
 import site from '../images/concepts/one/site.png';
 
 
-function VersionThree() {
+function ConceptOne() {
   return (
     <div className="concept-one">
       <img src={colour} alt="colour" />
@@ -20,10 +20,10 @@ function VersionThree() {
       <img src={logoTile} alt="icons" />
       <img src={bizCards} alt="business cards" />
       <img src={typeOne} alt="brand typography" />
-      <img src={typeTwo} alt="brand typography" />
+      <img src={typeTwo} alt="typography usage" />
       <img src={site} alt="site preview" />
     </div>
   );
 }
 
-export default VersionThree;
+export default ConceptOne;
